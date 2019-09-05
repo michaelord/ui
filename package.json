@@ -8,9 +8,10 @@
     "type": "git",
     "url": "http://github.com/michaelord/ui.git"
   },
-  "devDependencies": {
-    "react-scrollbar": "^0.5.6"
-  },
+  "devDependencies": {},
   "author": "michaelord",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "react-scrollbar": "^0.5.6"
+  }
 }
