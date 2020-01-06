@@ -1,5 +1,5 @@
 ---
-title: UI
+title: UIButton
 tags : ["all", "wip"]
 category: "Undefined"
 logo: "./thumbnail.jpg"
@@ -7,5 +7,9 @@ icon: '<svg x="0px" y="0px" viewBox="0 0 260 180" ><rect width="260" height="180
 published : false
 ---
 import { Playground, PlaygroudCode } from 'components/styleguide';
+import {UIButton} from './';
+import {UIButtonData} from './demo';
 
 [TODO]
+
+<UIButton {...UIButtonData} />

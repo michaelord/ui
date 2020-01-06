@@ -1,5 +1,5 @@
 ---
-title: UI
+title: Chooser
 tags : ["all", "wip"]
 category: "Undefined"
 logo: "./thumbnail.jpg"
@@ -7,5 +7,9 @@ icon: '<svg x="0px" y="0px" viewBox="0 0 260 180" ><rect width="260" height="180
 published : false
 ---
 import { Playground, PlaygroudCode } from 'components/styleguide';
+import {Chooser} from './';
+import {ChooserData} from './demo';
 
 [TODO]
+
+<Chooser {...ChooserData} />

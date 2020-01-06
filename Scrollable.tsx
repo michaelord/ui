@@ -1,17 +1,18 @@
-import * as React from 'react';
-
-import ScrollArea from 'react-scrollbar';
-
+import React from 'react';
+//import ScrollArea from 'react-scrollbar';
 import './Scrollable.scss';
 
-type Props = {
-	children?: React.ReactNode;
+import * as Types from 'components/types';
+
+export type ScrollableProps = {
+	children?: Types.Children;
 };
 
-export const Scrollable = (props: Props) => {
+export const Scrollable = (props: ScrollableProps) => {
 	const base: string = 'scrollable';
 	const {children} = props;
 
+	/*
 	return (
 		<ScrollArea
 			speed={0.8}
@@ -24,4 +25,7 @@ export const Scrollable = (props: Props) => {
 			{children}
 		</ScrollArea>
 	);
+	*/
+
+	return null;
 };
